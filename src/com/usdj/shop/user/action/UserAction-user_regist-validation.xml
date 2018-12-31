@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC
+        "-//Apache Struts//XWork Validator 1.0.3//EN"
+        "http://struts.apache.org/dtds/xwork-validator-1.0.3.dtd">
+<validators>
+	<field name="username">
+		<field-validator type="requiredstring">
+			<message>username can't not be null</message>
+		</field-validator>
+	</field>
+
+	<field name="password">
+		<field-validator type="requiredstring">
+			<message>password can't not be null</message>
+		</field-validator>
+	</field>
+
+	<field name="email">
+		<field-validator type="email">
+			<message>邮箱格式不正确</message>
+		</field-validator>
+	</field>
+	<field name="name ">
+		<field-validator type="requiredstring">
+			<message>name can't not be null</message>
+		</field-validator>
+	</field>
+	<field name="addr">
+		<field-validator type="requiredstring">
+			<message>addr can't not be null</message>
+		</field-validator>
+	</field>
+</validators>
